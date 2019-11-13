@@ -1,0 +1,218 @@
+body{
+	background-color:mintcream;
+	color:#555;
+	font-family:arial, helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.5em;
+	margin:0;
+	width:100%;
+}
+
+#john{
+	background-image:url('../dashboard/dar.jpg');
+	position:absolute;
+	top:361px;
+	left:800px;
+	background:white;
+	color:black;
+	height:845px;
+	width:510px;
+	padding:10px; 
+	 border-left:2px blue solid;
+}
+
+
+
+
+
+
+
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	
+}	
+#main-header{
+	background-color:Beige;
+	color:red;
+	text-align:center right;
+	height:100px;
+}
+#navbar{
+	background-color:black;
+	color:black;
+}
+#navbar ul{
+	padding:0;
+	list-style:none;
+}
+#navbar li{
+	display:inline;
+}
+#navbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:15px;
+}
+#showcase{
+	background-image:url('../dashboard/regista.jpg');
+	background-repeat:no-repeat;
+	background-position:;
+	height:200px;
+	margin-bottom:5px;
+	text-align:center;
+}	
+#showcase h1{
+	color:brown;
+	font-size:30px;
+	line-height:1em;
+	padding-top:30px;
+}
+#frank{
+	border:3px bold yellow;
+     position:absolute;
+	 width:200px;
+	 top:105px;
+	 left:1010px;
+	 height:40px;
+	 background-color:white;
+	 
+	 }
+	 
+	
+
+
+
+
+
+
+
+
+#mama{
+	border:3px solid white;
+	position:fix;
+    width:400px;
+	height:300px;
+	background-color:white;
+	color:black;
+	padding:0px;
+	margin-bottom:2px;
+		
+}
+#kaka{
+	border:3px solid white;
+	position:fix;
+	top:100px;
+	width:400px;
+	height:550px;
+	background-color:white;
+	color:black;
+	padding:0px;
+	margin-bottom:2px;
+	left:500px;
+	border-top:9px red solid;
+
+}
+#monika{
+	 border:3px bold yellow;
+     position:absolute;
+	 width:920px;
+	 top:361px;
+	 left:408px;
+	 height:865px;
+	 background-color:white;
+	 border-left:2px blue solid;
+	 margin-left:10px;
+	 
+	 }
+	 
+
+
+
+
+
+
+
+#main{
+	float:left;
+	width:30%;
+	background:mintcream;
+	padding:30px;
+	box-sizing:border-box;
+}
+#sidebar{
+	float:left;
+	width:20%;
+	background:MintCream;
+	color:black;
+	padding:30px;
+	box-sizing:padding-box;
+	
+	
+}
+#sideba{
+	float:left;
+	width:20%;
+	background:MintCream;
+	color:black;
+	padding:30px;
+	box-sizing:padding-box;
+	
+}
+#main-footer{
+	background:black;
+	color:white;
+	text-align:center;
+	padding:20px;
+	margin-top:2px;
+	height-line:0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

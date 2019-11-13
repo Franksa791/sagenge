@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+    <header id="main-header">
+	<div class="container">
+	    <h1 style="text-align:center;background-color:Beige;"><b>My Website</b></h1>
+	</div>	
+    </header>
+	
+    <nav id="navbar">
+	    <div class="container">
+           <ul>		
+               <li><a href="index.html">Home</a></li>
+               <li><a href="infopagee.html">Personal Info</a></li>
+               <li><a href="infopage.html">Favorities</a></li>
+               <li><a href="contacts.html">Contacts</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+	<section id="showcase">
+	<div class="container">
+	   <h1>
+	   </h1>
+	</div>
+	</section>
+	
+	<div class="search-box">
+	<input type="text" name="text" class="search" placeholder="Type to search">
+	<input type="submit" name="submit" class="submit" value="Go" >
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div id="mama">
+	<h1 style="color:blue;">ICT Department</h1>
+	<P>
+	The Open University Of Tanzania is among of the largest University in the World which provides many courses, among of the courses 
+    provided by the University is Information and Communication Technology. The Information and Communication Technology (ICT) Department
+    is one of the five departments hosted under the faculty of science, technology and environmental studies (FSTES).
+	<a href="https://www.out.ac.tz/programe/department-of-ict/">Read More...</a> 	
+	
+	
+	</P>
+	</div>
+	
+	
+	<div id="monika">
+	<h1>open</h1>
+	<P>
+	For your first assignment, you are to create your own home page that will be placed on 
+	the Web. In addition to telling the 
+	world about you, your home page will serve as a central repository of Web-based 
+	applications that you develop. 
+	
+	
+	</P>
+	</div>
+	 <div id="kaka">
+	<h1>FREE SIGNUP!</h1>
+	<P>
+	Subscribe Monthly Newsletter& Get Latest News & Updates.
+	<a href="formz.html">Click here</a>
+	</P>
+	</div>
+	 
+	 
+	 
+	 
+	 
+	 
+	
+	
+	
+	
+	
+	
+	
+	<div class="container">
+	<section id="main">
+	<h1 style="color:red">Welcome<hr></h1>
+	<p>
+	I almost done, welcome to my blog where you can find all you want about media
+	Thanks for those who always ask question about me, and also thanks for those who supporting me by any means especially
+	economically.....
+	</p>
+	</section>
+	
+	<aside id="sidebar">
+	<h1 style="color:red">Sign Up<hr></h1>
+	   <p>
+	    The following form must be filled out to complete the registration, <a href="formz.html">Click here</a> to join
+	
+	   </p>
+	</aside>
+	<div class="vl">
+	<aside id="sideba">
+	<h1 style="color:red">Useful Links<hr></h1>
+	   <ul>
+	       <li><a href="http://google.com">www.google.com</a></li>
+		   <li><a href="http://youtube.com">www.youtube.com</a></li>
+		   <li><a href="http://out.ac.tz">www.out.ac.tz</a></li>
+		 
+		   <li><a href="http://tanesco.co.tz">www.tanesco.co.tz</a></li>
+		   <li><a href="http://heslb.go.tz">www.heslb.go.tz</a></li>
+		   <li><a href="http://tcu.go.tz">www.tcu.go.tz</a></li>
+		   
+	   </ul>
+	</aside>
+	</div>
+	</div>
+	
+	
+	<p>Click the button to get your location</p>
+	<button onclick="getLocation()">click here</button>
+	<p id="demo"></p>
+	
+	<script>
+	var x=document.getElementById("demo");
+	
+	function getLocation(){
+	if(navigator.geolocation){
+	
+	navigator.geolocation.getCurrentPosition(showPosition);
+	}else{
+	x.innerHTML = "Geolocation is not supported by this browser.";
+	}
+	}
+	function showPosition(position){
+	x.innerHTML="latitude:" + position.coords.latitude + "<br> longitude:" + position.coords.longitude;
+	}
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	<div id=content style="background-color:gainsboro">
+<script language="javascript" ">
+document.write("This page was last modified on:"+document.lastModified +"");
+</script>
+
+
+</div>
+
+
+	
+	
+	
+	
+	<footer id="main-footer">
+	<p>copyright &copy;2019 My website</p>  
+	<p>All Right Reserved</p>
+
+	
+	</footer>
+	
+	
+	
+	
+</body>
+</html>
